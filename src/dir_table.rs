@@ -48,7 +48,16 @@ impl DirItem {
             length: length as u64,
         }
     }
+
+    pub fn is_file(&self)->bool {
+        self.attr == Attribute::File
+    }
+
+    pub fn is_dir(&self)->bool {
+        self.attr == Attribute::Directory
+    }
 }
+
 
 #[derive(Debug, Clone, Copy, PartialEq)]
 #[repr(u8)]
