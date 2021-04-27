@@ -1,8 +1,11 @@
 [package]
 name = "tianmu-fs"
 version = "0.1.0"
-authors = ["zhanggen <1363558876@qq.com>"]
+authors = ["belowthetree <1363558876@qq.com>"]
 edition = "2018"
+license = "GPL-3.0-or-later"
+description = "A simple fs for TisuOS"
+repository = "https://github.com/TisuOS/tianmu-fs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
